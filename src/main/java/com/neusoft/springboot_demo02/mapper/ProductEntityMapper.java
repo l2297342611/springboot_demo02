@@ -1,6 +1,6 @@
-package com.neusoft.springboot_demo02;
+package com.neusoft.springboot_demo02.mapper;
 
-import com.neusoft.springboot_demo01.entity.ProductEntity;
+import com.neusoft.springboot_demo02.entity.ProductEntity;
 
 public interface ProductEntityMapper {
     int deleteByPrimaryKey(Integer goodsno);

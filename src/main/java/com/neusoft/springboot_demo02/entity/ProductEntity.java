@@ -1,4 +1,4 @@
-package com.neusoft.springboot_demo01.entity;
+package com.neusoft.springboot_demo02.entity;
 
 import java.io.Serializable;
 import java.math.BigDecimal;
