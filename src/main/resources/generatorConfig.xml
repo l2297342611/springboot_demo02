@@ -54,7 +54,7 @@
 
         <!-- 对应的Mapper接口类文件 -->
         <javaClientGenerator type="XMLMAPPER"
-                             targetPackage="com.neusoft.springboot_demo01.dao.mapper"
+                             targetPackage="com.neusoft.springboot_demo02.mapper"
                              targetProject="./src/main/java">
             <property name="enableSubPackages" value="false" />
         </javaClientGenerator>
