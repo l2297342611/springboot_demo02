@@ -1,0 +1,21 @@
+server:
+  servlet:
+    context-path: /api
+  port: 9999
+
+spring:
+  datasource:
+    name: db
+    type: com.alibaba.druid.pool.DruidDataSource
+    url: jdbc:mysql://localhost:3306/product
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: 123456
+
+mybatis:
+  mapper-locations: mapper/*.xml
+
+
+logging:
+  level:
+    com.neusoft.springboot_demo01.dao.mapper: debug
